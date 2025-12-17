@@ -9,91 +9,88 @@
 	{\fontsize{\sizeone}{\sizeone}\fontspec[Path = fonts/,LetterSpace=15]{Montserrat-Regular} ROBERT PAUL}
 	\\
 	\vspace{2mm}
-	{\fontsize{1em}{1em}\fontspec[Path = fonts/]{Montserrat-Light} rob.k.paul@gmail.com -- (831) 235-8681 -- Chico, CA}
+	{\fontsize{1em}{1em}\fontspec[Path = fonts/]{Montserrat-Light} mail@robertpaul.dev -- (831) 235-8681 -- San Francisco Bay Area}
 \end{center}
 % Chapter: Work Experience
 % ------------------------
 
-\chap{EXPERIENCE}{
-
-	\job
-	{Chico State IT Support Services}
-	{Aug 2021-Present}
-	{Tier 2 Technician, Lead}
-	{Chico, CA}
-	{\begin{newitemize}
-			\item Provided technical support for students, faculty, and staff of Chico State campus.
-		\end{newitemize}}
+\chap{EXPERIENCE}{ \\
 	\job
 	{Dropbox}
-	{Summer 2023}
+	{Remote}
+	{Software Engineer}
+	{Jul 2024 - Present}
+	{
+		\begin{newitemize}
+			\item {Assisted with planning, implementation, and rollout of a silent automatic migration to File Provider, handling two sync engines running concurrently without additional storage overhead. Currently rolled out to 100,000 external users.}
+			\item {Implemented backend for handling automatic sync engine migrations to File Provider, allowing us to test initial automatic migrations on 10,000 external users.}
+			\item {Performed major overhaul of low-level error handling for the macOS File Provider API, resulting in the diagnosis and resolution of several longstanding bugs.}
+		\end{newitemize}
+	}
+	\subjob
 	{Software Engineer Intern}
-	{Remote}
-	{\begin{newitemize}
-			\item {Refactored an existing performance testing tool in anticipation of deprecation of key dependency.}
-			\item {Added ability to test competitor products as a part of refactor to guide development in 20 person team.}
-			\item {Wrote code to generate scripts in both Powershell and Bash to provide coverage for multiple environments.}
+	{May 2023 - Aug 2023}
+	{
+	    \begin{newitemize}
+			\item {Refactored an existing sync performance testing tool to run on developer machines in anticipation of deprecation of existing platform.}
+			\item {Modified tool to benchmark competitor sync engines to direct engineering efforts around sync speed.}
 		\end{newitemize}
 	}
-	\job
-	{Dropbox}
-	{Summer 2022}
+	\subjob
 	{Launch Software Engineer Intern}
-	{Remote}
-	{\begin{newitemize}
-			\item {Developed Python backend APIs, enabling the transfer of user data from OneDrive to Dropbox.}
-			\item {Created UI entry points in React, allowing user access to the API functions.}
-			\item {Made design decisions based on user testing and feedback.}
+	{May 2022 - Aug 2022}
+	{
+	    \begin{newitemize}
+			\item {Refactored existing codebase for migrating users from Google Drive to Dropbox to allow expansion for additional sync providers.}
+			\item {Implemented first additional sync provider, providing OneDrive to Dropbox imports for users.}
 		\end{newitemize}
 	}
+	\jobheader
+	{Chico State IT Support Services}
+	{Chico, CA}
+
+	\jobtitle
+	{Tier 2 Technician}
+	{Jul 2022 - Jun 2024}
+
+	\jobtitle
+	{Service Desk Support Technician}
+	{Jan 2022 - Jun 2022}
+
+	\jobtitle
+	{Computer Lab Assistant}
+	{Aug 2021 - Dec 2021}
 }
 % Chapter: Education
 % ------------------
 
-\chap{EDUCATION}{
-
+\chap{EDUCATION}{ \\
 	\school
 	{California State University, Chico}
-	{Aug 2020 – May 2024}
-	{BS Computer Science, GPA 3.5}
-	{Chico, CA}
-	{\begin{newitemize}
-			\item President of the Computer Science Honors Society, Upsilon Pi Epsilon
-			\item Student Representative on the University Technology Advisory Committee
-		\end{newitemize}
-	}
+	{Aug 2020 - May 2024}
+	{B.S. Computer Science}
+	{Chico, CA}{}
 }
 % Chapter: Projects
 % ------------------------
 
-\chap{PROJECTS}{
-
+\chap{PROJECTS}{ \\
 	\project
-	{Characters Without Number}
-	{Python, Django}
-	{github.com/robkpaul/CharactersWithoutNumber}
-	{A character sheet manager for the tabletop game Worlds Without Number, with campaign management features.\\}
+	{Chord of Calling}
+	{Rust (axum)}
+	{}
+	{Webapp for organizing drafts for Magic: the Gathering, currently in development. Planned testing early 2026.\\}
 	\project
 	{Modron}
-	{Python, AsyncIO, MongoDB (Motor), Discord.Py}
-	{github.com/robkpaul/Modron}
-	{A Discord chat bot designed for planning sessions and keeping track of players and their characters in a West-Marches D\&D game.\\}
-
-	\project
-	{Binny}
-	{Java, WPILib}
-	{github.com/CarmelRobotics/binny}
-	{A collaborative robotics project, built using a novel drive train system.\\}
+	{Python, MongoDB (Motor), Discord.Py}
+	{github.com/rp50/Modron}
+	{A Discord bot designed for planning sessions and tracking players and their characters in a West-Marches D\&D game.\\}
 }
 % Chapter: Skills
 % ------------------------
 
-\chap{SKILLS}{
-
-	\begin{newitemize}
-		\item Languages: C++, C, Go, Java, Python, Typescript
-		\item Frameworks: Django, FastAPI, React, Vue
-		\item Tools: Git, Github, Google Cloud Platform, Gradle, Heroku, MongoDB, SQL
-	\end{newitemize}
+\chap{SKILLS}{ \\
+Programming Languages: Bash, C, C++, Go, Java, Javascript, Python, Rust, SQL \\
+Frameworks and Tools: Databricks, Django, FastAPI, Git, Github, Jira, LaTeX, Protobuf, React, Svelte, TeamDynamix
 }
 \end{document}

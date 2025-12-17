@@ -93,6 +93,23 @@
   \vspace{\sizefive}
 }
 
+\newcommand{\jobheader}[2]{
+  \vspace{\sizefive}
+  {\fontsize{\sizetwo}{\sizetwo}\fontspec[Path = fonts/]{CrimsonText-SemiBold} #1} \hfill {\fontsize{\sizethree}{\sizethree}\fontspec[Path = fonts/]{CrimsonText-Regular} #2}
+}
+
+
+
+\newcommand{\subjob}[3]{
+  {\fontsize{\sizethree}{\sizethree}\fontspec[Path = fonts/]{CrimsonText-Regular} #1} \hfill {\fontsize{\sizethree}{\sizethree}\fontspec[Path = fonts/]{CrimsonText-Regular} #2}
+  {#3}
+  \vspace{\sizefive}
+}
+
+\newcommand{\jobtitle}[2]{
+  {\fontsize{\sizethree}{\sizethree}\fontspec[Path = fonts/]{CrimsonText-Regular} #1} \hfill {\fontsize{\sizethree}{\sizethree}\fontspec[Path = fonts/]{CrimsonText-Regular} #2}
+}
+
 \newcommand{\project}[4]{
   \vspace{\sizefive}
   {\fontsize{\sizetwo}{\sizetwo}\fontspec[Path = fonts/]{CrimsonText-SemiBold} #1} {\fontsize{\sizethree}{\sizethree}\fontspec[Path = fonts/]{CrimsonText-Regular} #2} \hfill {\fontsize{\sizethree}{\sizethree}\fontspec[Path = fonts/]{CrimsonText-Regular} #3}
